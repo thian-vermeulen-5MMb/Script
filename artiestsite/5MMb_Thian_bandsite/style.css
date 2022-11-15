@@ -1,0 +1,86 @@
+*{
+margin: 0;
+}
+
+body{
+background-color: rgb(255, 255, 252);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+background-image: url(https://images.unsplash.com/photo-1573589520639-e2f48b73251d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=417&q=80);
+background-size: cover;
+background-position: center;
+}
+
+nav li{
+display: inline-block;
+color: aliceblue;
+}
+
+
+.info {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+
+.merch {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+    
+}
+
+.tour {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+
+.gallery {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+
+h2 {
+font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 30px;
+}
+
+h3 {
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h4 {
+font-size: xx-small;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+display: block;
+background-color: rgb(6, 6, 6);
+padding: 20px;
+text-decoration: none;
+}
+
+    
+image {
+    width: 100% ;
+}
+
+h1 {
+text-align: center;
+}
+
+a:hover {
+background-color: white;
+border-style: groove;
+border-color: rgb(58, 58, 62);
+}
+    
+ul {
+background-color: grey;
+}
+    
+     

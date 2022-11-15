@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+}
+
+section p{
+
+    width: 50%;
+    background-color: bisque;
+    margin: auto;
+}
+
+article{
+    height: 40vh;
+    width: 50%;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+article{
+
+}
