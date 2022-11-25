@@ -5,6 +5,7 @@
     body{
     background-color: rgb(249, 234, 157);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     }
     
     header {
@@ -48,19 +49,25 @@
     }
         
     ul {
-    background-color: rgb(146, 251, 216);
-    display: inline-block;
-    text-align: center;
-    
-    
-    }
+           text-align: center;
+           list-style: none;
+           
+         }
+     
 
     #flexbox {
         display: flex;
         border: 2px solid black;
     }
+
     .col {
         border: 2px solid black; 
     }
     
+    .left {
+        width: 30%;
+    }
     
+    .right {
+        width: 70%;
+    }
