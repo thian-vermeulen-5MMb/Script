@@ -1,0 +1,56 @@
+/*intellingen vormgeving*/
+body {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*vormgeving klasses*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 8rem;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 2px;
+    background-color:   rgb(114, 112, 109);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header input {
+    background-color: azure;
+    
+}
+
+header i {
+    margin-left: 20px;
+    font-size: medium;
+}
+
+header nav li {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+a{
+    padding: 20px;
+}
