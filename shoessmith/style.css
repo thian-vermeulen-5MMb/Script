@@ -1,0 +1,95 @@
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 10px;
+
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+}
+
+nav a {
+  margin-left: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+.hero {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: rgb(247, 250, 247);
+  color: rgb(2, 2, 2);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.social {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  padding: 1ch;
+}
+
+body {
+  margin: 0;
+  background-image: url(images/revolt-164_6wVEHfI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  }
+
+.social a- {
+  margin-left: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #352020;
+  }
+
+  h1{
+      color: #ffffff
+  }
+ 
+  p{
+      color: #ffffff
+  }
+
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
