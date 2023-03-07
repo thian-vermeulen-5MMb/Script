@@ -184,3 +184,9 @@ footer i {
 footer i:hover {
     transform: scale(1.1);
 }
+
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
