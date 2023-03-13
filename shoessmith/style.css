@@ -55,7 +55,7 @@ nav a {
 .hero button {
   padding: 10px 20px;
   background-color: rgb(247, 250, 247);
-  color: rgb(2, 2, 2);
+  color: rgb(4, 4, 4);
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
@@ -82,15 +82,15 @@ body {
   margin-left: 20px;
   font-size: 1.5em;
   text-decoration: none;
-  color: #352020;
+  color: #050505;
   }
 
   h1{
-      color: #ffffff   
+      color: #fcfafa   
   }
  
   p{
-      color: #ffffff
+      color: #fdfcfc
   }
 
   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
