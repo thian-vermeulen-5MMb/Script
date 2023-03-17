@@ -152,14 +152,18 @@ h5{
     
 }
 
-footer {
+footer .flex-container {
     padding: 5vw 10vw;
     background-color: #111;
     color: #666;
 }
 
-footer .flex-container:first-child {
-    margin-bottom: 2rem;
+footer .social {
+    background-color: #fefdfd;
+    justify-content: center;
+    gap: 2em;
+
+    
 }
 
 footer ul li {
@@ -178,9 +182,10 @@ footer ul li:first-child a{
     
 }
 footer i {
-    margin-left: 1ch;
+    
     font-size: 1.6rem;
-    color: #fff;
+    color: #070707;
+    
 }
 
 footer i:hover {
@@ -188,7 +193,15 @@ footer i:hover {
 }
 
 footer a{
-    padding: 20px;
+
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+
+footer .onder{
+    background-color: #666;
+    padding-top: 2px;
+    color: white;
+    
 }
