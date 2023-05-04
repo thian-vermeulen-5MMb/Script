@@ -1,0 +1,83 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(24, 97%, 13%);
+    --bgc-02: hwb(48 2% 5%);
+    --txt-01: hsl(0, 0%, 1%);
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 136, 4);
+    justify-content: center;
+    height: 50px;
+    
+    
+}
+
+h1 {
+    display: inline;
+}
+
+nav h1 {
+    display: inline;
+}
+
+nav li {
+    display: inline;
+
+}
+
+.logo img {
+    width: 3em;
+}
+
+.flexcontainer {
+    background-color: rgb(159, 90, 12);
+    height: 3em;
+    text-align: center;
+    padding-top: 15px;
+    font-style: oblique;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    
+}
+img{
+    height: 240px;
+    margin-top: 20%; 
+}
+.act{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+.venue{
+    color: aliceblue;
+}
+.date{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
