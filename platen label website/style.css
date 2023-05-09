@@ -22,12 +22,21 @@ body {
 
 header {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(197, 136, 4);
-    justify-content: center;
+    background-color: rgb(88, 87, 87);
     height: 50px;
     
     
+}
+
+header a{
+    margin-left: 50px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 h1 {
@@ -38,22 +47,21 @@ nav h1 {
     display: inline;
 }
 
-nav li {
-    display: inline;
 
-}
 
-.logo img {
-    width: 3em;
-}
 
 .flexcontainer {
-    background-color: rgb(159, 90, 12);
-    height: 3em;
+    
     text-align: center;
     padding-top: 15px;
     font-style: oblique;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     
+}
+img{
+    height: 50px;
 }
 
 .grid-container {
@@ -63,7 +71,7 @@ nav li {
     justify-items: center;
     
 }
-img{
+.grid-container img{
     height: 240px;
     margin-top: 20%; 
 }
@@ -78,6 +86,39 @@ img{
     color: aliceblue;
 }
 p{
-    color: aliceblue;
+    color: rgb(194, 147, 6);
 }
 
+
+
+
+footer .social {
+    padding-top: 20px;
+    background-color: #3d3d3d;
+    padding-left: 45%;
+    gap: 2em;
+
+    
+}
+
+footer i {
+    
+    font-size: 1.6rem;
+    color: #fefefe;
+    align-items: center;
+}
+
+
+
+
+
+footer .onder{
+    background-color: #666;
+    padding-top: 2px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
