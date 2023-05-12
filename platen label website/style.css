@@ -7,6 +7,7 @@
 
 }
 
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -25,15 +26,18 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(88, 87, 87);
-    height: 50px;
-    
+}
+
+header img {
+    width: 60px;
     
 }
 
-header a{
+header a {
     margin-left: 50px;
 }
-header ul{
+
+header ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -47,45 +51,55 @@ nav h1 {
     display: inline;
 }
 
-
+#new {
+    margin-bottom: 3rem;
+}
 
 
 .flexcontainer {
-    
+
     text-align: center;
     padding-top: 15px;
     font-style: oblique;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+
+}
+
+img {
+    width: 100%;
     
 }
-img{
-    height: 50px;
-}
+
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     justify-items: center;
-    
+
 }
-.grid-container img{
-    height: 240px;
-    margin-top: 20%; 
+
+.grid-container img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
 }
-.act{
+
+.act {
     color: rgb(0, 0, 0);
     background-color: aliceblue;
 }
-.venue{
+
+.venue {
     color: aliceblue;
 }
-.date{
+
+.date {
     color: aliceblue;
 }
-p{
+
+p {
     color: rgb(194, 147, 6);
 }
 
@@ -98,11 +112,11 @@ footer .social {
     padding-left: 45%;
     gap: 2em;
 
-    
+
 }
 
 footer i {
-    
+
     font-size: 1.6rem;
     color: #fefefe;
     align-items: center;
@@ -112,13 +126,14 @@ footer i {
 
 
 
-footer .onder{
+footer .onder {
     background-color: #666;
     padding-top: 2px;
     color: white;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
