@@ -22,6 +22,19 @@ nav {
     text-decoration: none;
 }
 
+.navbar-nav .nav-link.active{
+    color: #fefefe;
+}
+
+
+.btn{
+    color: blue;
+} 
+
+.btn-outline-success{
+    --bs-btn-border-color: #f8f9fa;
+}
+
 a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -42,6 +55,11 @@ img {
     grid-template-columns: repeat(3, 2fr);
     gap: 1rem;
     justify-items: center;
+}
+
+.btn-primary{
+    color: #fefefe !important;
+    --bs-btn-bg: #141619;
 }
 
 footer {
