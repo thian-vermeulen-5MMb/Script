@@ -10,7 +10,6 @@
 
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
 }
 
@@ -47,17 +46,60 @@ h1 {
     display: inline;
 }
 
-
-
 nav h1 {
     display: inline;
 }
 
+#new {
+    margin-bottom: 3rem;
+}
+
+
+.flexcontainer {
+
+    text-align: center;
+    padding-top: 15px;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+img {
+    width:100%;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+
+}
+
+.grid-container img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
 
 
 p {
     color: rgb(194, 147, 6);
 }
+
+#liedjes{
+    width: 100%;
+    scale: 60%;
+    
+}
+#songs{
+    font-size: x-large;
+    
+}
+
 
 footer .social {
     padding-top: 20px;
