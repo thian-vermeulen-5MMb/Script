@@ -73,6 +73,7 @@ img {
 }
 
 
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -102,6 +103,7 @@ img {
 p {
     color: rgb(194, 147, 6);
 }
+
 
 
 
