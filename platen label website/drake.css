@@ -10,6 +10,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
     padding: 0;
 }
 
@@ -67,7 +68,7 @@ nav h1 {
 }
 
 img {
-    width:100%;
+    width: 100%;
     
 }
 
@@ -85,20 +86,24 @@ img {
     object-fit: cover;
 }
 
+.act {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.venue {
+    color: aliceblue;
+}
+
+.date {
+    color: aliceblue;
+}
 
 p {
     color: rgb(194, 147, 6);
 }
 
-#liedjes{
-    width: 100%;
-    scale: 60%;
-    
-}
-#songs{
-    font-size: x-large;
-    
-}
+
 
 
 footer .social {
