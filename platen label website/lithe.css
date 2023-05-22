@@ -45,8 +45,18 @@ header ul {
 
 h1 {
     display: inline;
+    margin-top: 20px;
 }
-
+h3{
+    color: darkgoldenrod;
+}
+h2{
+    color: darkgoldenrod;
+    padding-top: 100px;
+}
+ul{
+    margin-top: 10px;
+}
 nav h1 {
     display: inline;
 }
