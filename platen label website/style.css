@@ -138,6 +138,7 @@ img {
 .grid-container img {
     aspect-ratio: 3 / 2;
     object-fit: cover;
+    width: 100%;
 }
 
 #act li {
