@@ -3,7 +3,7 @@
 :root {
     --bgc-01: hsl(24, 97%, 13%);
     --bgc-02: hwb(48 2% 5%);
-    --txt-01: hsl(0, 0%, 1%);
+    --txt-01: hwb(0 1% 99%);
 
 }
 
@@ -74,19 +74,13 @@ header input#burger{
 
 }
 
-header input#burger {
-    display: none;
-}
 
 header label[for="burger"] {
-    position: fixed;
     z-index: 3;
     top: 0;
     right: 0;
     display: none;
-    width: 100%;
     padding: 1rem 1ch;
-    background-color: var(--bgc-02);
     text-align: right;
     cursor: pointer;
 }
@@ -96,30 +90,6 @@ header label[for="burger"] i {
     font-size: 1.25rem;
 }
 
-@media (width <=750px) {
-    header label[for="burger"] {
-        display: block;
-    }
-
-    header nav ul {
-        position: fixed;
-        z-index: 3;
-        top: 3rem;
-        right: 0;
-        display: none;
-        padding-right: 1ch;
-        width: 100%;
-        background-color: var(--bgc-02);
-        text-align: right;
-        user-select: none;
-        
-    }
-
-    header input#burger:checked+label[for="burger"]+nav ul {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 img {
     width: 100%;
@@ -205,5 +175,32 @@ a {
     }
     #lineup .grid-container{
         grid-template-columns: 1fr;
+    }
+}
+
+@media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        position: absolute;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+        
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
