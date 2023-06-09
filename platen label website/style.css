@@ -20,6 +20,7 @@ body {
     font-family: "owners-wide", sans-serif;
     line-height: 1;
 }
+
 header img {
     width: 60px;
 
@@ -42,7 +43,7 @@ header ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
+
 }
 
 h1 {
@@ -58,9 +59,9 @@ nav h1 {
 }
 
 
-header input#burger{
+header input#burger {
     display: none;
-    
+
 }
 
 .flexcontainer {
@@ -76,6 +77,7 @@ header input#burger{
 
 
 header label[for="burger"] {
+    position: absolute;
     z-index: 3;
     top: 0;
     right: 0;
@@ -115,7 +117,8 @@ img {
     color: white;
     padding-top: 10px;
 }
-#act h1{
+
+#act h1 {
     color: goldenrod;
 }
 
@@ -138,8 +141,8 @@ p {
 
 #chart img {
     width: 100%;
-   padding-left: 30%;
-   padding-top: 10px;
+    padding-left: 30%;
+    padding-top: 10px;
 }
 
 footer .social {
@@ -169,16 +172,17 @@ a {
     text-decoration: none;
     color: black;
 }
-@media(width <=750px){
-    header{
-        background-color: rgb(255, 255, 255);
-    }
-    #lineup .grid-container{
-        grid-template-columns: 1fr;
-    }
-}
+
 
 @media (width <=750px) {
+    header {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #lineup .grid-container {
+        grid-template-columns: 1fr;
+    }
+
     header label[for="burger"] {
         display: block;
     }
@@ -193,14 +197,16 @@ a {
         background-color: var(--bgc-02);
         text-align: right;
         user-select: none;
-        
+
     }
 
     header input#burger:checked+label[for="burger"]+nav ul {
         display: flex;
         flex-direction: column;
     }
-    .grid-container{
+
+    .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
